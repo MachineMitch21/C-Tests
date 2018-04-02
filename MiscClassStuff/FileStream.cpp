@@ -20,7 +20,7 @@ FileStream::FileStream(std::string file)
 
 FileStream::~FileStream()
 {
-    
+
 }
 
 bool FileStream::OpenFile(std::string file, std::string mode)
@@ -68,6 +68,7 @@ bool FileStream::Read(std::string& read_data)
     {
         read_data.append(buffer);
         FireReadEvent();
+        free(buffer);
         return true;
     }
 

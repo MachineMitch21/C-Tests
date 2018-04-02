@@ -3,6 +3,8 @@
 
 #include "FileStream.hpp"
 #include "FileStreamListener.hpp"
+#include "ConsoleStream.hpp"
+#include "ConsoleStreamListener.hpp"
 
 int main(int argc, char** argv)
 {
@@ -22,5 +24,24 @@ int main(int argc, char** argv)
     fs.Close();
 
     fs.RemoveListener(&fsl);
+
+    ConsoleStream cs;
+    ConsoleStreamListener csl;
+
+    cs.AddListener(&csl);
+
+    cs.Write("\nSome test data to write to the console!\n");
+
+    cs.Write("Enter some input: ");
+
+    std::string con_input;
+
+    cs.Read(con_input);
+
+    cs.Write("\nYou entered: " + con_input + "\n");
+
+    cs.Close();
+
+    cs.RemoveListener(&csl);
     return 0;
 }

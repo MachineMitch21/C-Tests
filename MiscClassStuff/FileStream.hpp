@@ -9,7 +9,7 @@ class FileStream : public Stream {
 
 public:
     FileStream(std::string file);
-    virtual ~FileStream();
+    ~FileStream();
 
     bool Write(std::string data)        override;
     bool Read(std::string& read_data)   override;
