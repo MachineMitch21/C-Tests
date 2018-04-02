@@ -1,0 +1,3 @@
+F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir
+F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/edit_cache.dir
+F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/rebuild_cache.dir
