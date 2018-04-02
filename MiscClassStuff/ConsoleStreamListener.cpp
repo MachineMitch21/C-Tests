@@ -13,17 +13,17 @@ ConsoleStreamListener::~ConsoleStreamListener()
 
 }
 
-void ConsoleStreamListener::StreamWritten()
+void ConsoleStreamListener::StreamWritten(StreamEvent& streamEvt)
 {
     printf("\a");
 }
 
-void ConsoleStreamListener::StreamRead()
+void ConsoleStreamListener::StreamRead(StreamEvent& streamEvt)
 {
     printf("\a");
 }
 
-void ConsoleStreamListener::StreamClosed()
+void ConsoleStreamListener::StreamClosed(StreamEvent& streamEvt)
 {
     printf("\a");
 }

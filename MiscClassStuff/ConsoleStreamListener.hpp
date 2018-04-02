@@ -10,9 +10,9 @@ public:
     ConsoleStreamListener();
     virtual ~ConsoleStreamListener();
 
-    void StreamWritten()    override;
-    void StreamRead()       override;
-    void StreamClosed()     override;
+    void StreamWritten(StreamEvent& streamEvt)    override;
+    void StreamRead(StreamEvent& streamEvt)       override;
+    void StreamClosed(StreamEvent& streamEvt)     override;
 
 };
 

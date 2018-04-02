@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Code/C++Tests/MiscClassStuff/ConsoleStream.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/ConsoleStream.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/ConsoleStreamListener.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/ConsoleStreamListener.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/FileStream.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/FileStream.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/FileStreamListener.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/FileStreamListener.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/Stream.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/Stream.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/StreamListener.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/StreamListener.cpp.obj"
-  "F:/Code/C++Tests/MiscClassStuff/main.cpp" "F:/Code/C++Tests/MiscClassStuff/build/CMakeFiles/classes.dir/main.cpp.obj"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStream.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/ConsoleStream.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/ConsoleStreamListener.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/FileStream.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStreamListener.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/FileStreamListener.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/LogManager.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/LogManager.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/Stream.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/StreamEvent.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/StreamListener.cpp.o"
+  "/home/mitch/Documents/CplusplusTests/MiscClassStuff/main.cpp" "/home/mitch/Documents/CplusplusTests/MiscClassStuff/build/CMakeFiles/classes.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

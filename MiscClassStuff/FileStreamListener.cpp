@@ -14,17 +14,17 @@ FileStreamListener::~FileStreamListener()
 
 }
 
-void FileStreamListener::StreamWritten()
+void FileStreamListener::StreamWritten(StreamEvent& streamEvt)
 {
     printf("\nThe Stream was written to!\n");
 }
 
-void FileStreamListener::StreamRead()
+void FileStreamListener::StreamRead(StreamEvent& streamEvt)
 {
     printf("\nThe Stream was read from!\n");
 }
 
-void FileStreamListener::StreamClosed()
+void FileStreamListener::StreamClosed(StreamEvent& streamEvt)
 {
     printf("\nThe Stream was closed! :(\n");
 }

@@ -5,7 +5,10 @@
 #include <string>
 #include <list>
 
+#include "StreamEvent.hpp"
 #include "StreamListener.hpp"
+class StreamListener;
+class StreamEvent;
 
 #define LIST_SIZE_T std::list<StreamListener*>::size_type
 #define LIST_ITER   std::list<StreamListener*>::iterator
@@ -24,9 +27,9 @@ public:
     void RemoveListener(StreamListener* listener);
 
 protected:
-    void FireWriteEvent();
-    void FireReadEvent();
-    void FireCloseEvent();
+    void FireWriteEvent(StreamEvent& se);
+    void FireReadEvent(StreamEvent& se);
+    void FireCloseEvent(StreamEvent& se);
 
 private:
     std::list<StreamListener*> _listeners;

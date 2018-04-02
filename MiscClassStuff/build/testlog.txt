@@ -1,0 +1,152 @@
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+
+
+Entry Time: Mon Apr  2 12:39:30 2018
+
+
+Entry Data: Test write
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 12:42:34 2018
+
+
+Entry Data: Test write
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 12:45:09 2018
+
+
+Entry Data: Woo, more entries to the console
+
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 12:45:09 2018
+
+
+Entry Data: Enter some input: 
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleRead
+
+
+
+Entry Time: Mon Apr  2 12:45:18 2018
+
+
+Entry Data: Some input for log testing
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 14:07:14 2018
+
+
+Entry Data: Woo, more entries to the console
+
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 14:07:14 2018
+
+
+Entry Data: Enter some input: 
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleRead
+
+
+
+Entry Time: Mon Apr  2 14:07:16 2018
+
+
+Entry Data: woo
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 14:08:38 2018
+
+
+Entry Data: Woo, more entries to the console
+
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 14:08:38 2018
+
+
+Entry Data: Enter some input: 
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleRead
+
+
+
+Entry Time: Mon Apr  2 14:08:47 2018
+
+
+Entry Data: ADHD is false
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: Mon Apr  2 14:08:47 2018
+
+
+Entry Data: I am writing another thing to the console!
+
+
+--------------------LOG DONE---------------------
+

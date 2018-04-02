@@ -6,79 +6,111 @@
 
 #IncludeRegexTransform: 
 
-F:/Code/C++Tests/MiscClassStuff/ConsoleStream.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStream.cpp
 ConsoleStream.hpp
-F:/Code/C++Tests/MiscClassStuff/ConsoleStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStream.hpp
 string
 -
 string.h
 -
 
-F:/Code/C++Tests/MiscClassStuff/ConsoleStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStream.hpp
 Stream.hpp
-F:/Code/C++Tests/MiscClassStuff/Stream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.hpp
 
-F:/Code/C++Tests/MiscClassStuff/ConsoleStreamListener.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.cpp
 ConsoleStreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/ConsoleStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.hpp
 stdio.h
 -
 
-F:/Code/C++Tests/MiscClassStuff/ConsoleStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.hpp
 StreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/StreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.hpp
 
-F:/Code/C++Tests/MiscClassStuff/FileStream.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.cpp
 FileStream.hpp
-F:/Code/C++Tests/MiscClassStuff/FileStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.hpp
 string.h
 -
 assert.h
 -
 
-F:/Code/C++Tests/MiscClassStuff/FileStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.hpp
 stdio.h
 -
 Stream.hpp
-F:/Code/C++Tests/MiscClassStuff/Stream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.hpp
 
-F:/Code/C++Tests/MiscClassStuff/FileStreamListener.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStreamListener.cpp
 FileStreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/FileStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStreamListener.hpp
 stdio.h
 -
 
-F:/Code/C++Tests/MiscClassStuff/FileStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStreamListener.hpp
 StreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/StreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.hpp
 
-F:/Code/C++Tests/MiscClassStuff/Stream.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/LogManager.cpp
+LogManager.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/LogManager.hpp
+time.h
+-
+chrono
+-
+
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/LogManager.hpp
+string
+-
+ConsoleStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.hpp
+FileStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.hpp
+
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.cpp
 Stream.hpp
-F:/Code/C++Tests/MiscClassStuff/Stream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.hpp
 
-F:/Code/C++Tests/MiscClassStuff/Stream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.hpp
 string
 -
 list
 -
+StreamEvent.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.hpp
 StreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/StreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.hpp
 
-F:/Code/C++Tests/MiscClassStuff/StreamListener.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.cpp
+StreamEvent.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.hpp
+
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.hpp
+string
+-
+Stream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/Stream.hpp
+
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.cpp
 StreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/StreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.hpp
 
-F:/Code/C++Tests/MiscClassStuff/StreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamListener.hpp
+StreamEvent.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/StreamEvent.hpp
 
-F:/Code/C++Tests/MiscClassStuff/main.cpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/main.cpp
 stdio.h
 -
 FileStream.hpp
-F:/Code/C++Tests/MiscClassStuff/FileStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStream.hpp
 FileStreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/FileStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/FileStreamListener.hpp
 ConsoleStream.hpp
-F:/Code/C++Tests/MiscClassStuff/ConsoleStream.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStream.hpp
 ConsoleStreamListener.hpp
-F:/Code/C++Tests/MiscClassStuff/ConsoleStreamListener.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/ConsoleStreamListener.hpp
+LogManager.hpp
+/home/mitch/Documents/CplusplusTests/MiscClassStuff/LogManager.hpp
 

@@ -6,42 +6,23 @@
 #include "ConsoleStream.hpp"
 #include "ConsoleStreamListener.hpp"
 
+#include "LogManager.hpp"
+
 int main(int argc, char** argv)
 {
-    FileStream fs("test.txt");
-    FileStreamListener fsl;
+	ConsoleStream con_stream;
+	LogManager log_manager("testlog.txt");
+	
+	con_stream.AddListener(&log_manager);
+	
+	con_stream.Write("Woo, more entries to the console\n\n");
+	
+	con_stream.Write("Enter some input: ");
 
-    fs.AddListener(&fsl);
-
-    fs.Write("Some test data to write to file!");
-
-    std::string data;
-
-    fs.Read(data);
-
-    printf("\nData read from file: \n- %s\n", data.c_str());
-
-    fs.Close();
-
-    fs.RemoveListener(&fsl);
-
-    ConsoleStream cs;
-    ConsoleStreamListener csl;
-
-    cs.AddListener(&csl);
-
-    cs.Write("\nSome test data to write to the console!\n");
-
-    cs.Write("Enter some input: ");
-
-    std::string con_input;
-
-    cs.Read(con_input);
-
-    cs.Write("\nYou entered: " + con_input + "\n");
-
-    cs.Close();
-
-    cs.RemoveListener(&csl);
+	std::string in_str;
+	con_stream.Read(in_str);
+	
+	con_stream.Write("I am writing another thing to the console!\n");
+	
     return 0;
 }

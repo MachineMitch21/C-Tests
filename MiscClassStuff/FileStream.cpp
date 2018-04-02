@@ -4,11 +4,11 @@
 #include <string.h>
 #include <assert.h>
 
-FileStream::FileStream(std::string file)
+FileStream::FileStream(std::string file, std::string mode)
     :   Stream(),
         _fp(NULL)
 {
-    if (OpenFile(file, "w+"))
+    if (OpenFile(file, mode))
     {
         printf("%s opened successfully!\n", file.c_str());
     }
@@ -16,6 +16,11 @@ FileStream::FileStream(std::string file)
     {
         printf("Could not open %s!\n", file);
     }
+}
+
+FileStream::FileStream()
+{
+
 }
 
 FileStream::~FileStream()
@@ -41,7 +46,10 @@ bool FileStream::Write(std::string data)
 
     if (bytes_written != 0)
     {
-        FireWriteEvent();
+    	StreamEventData sed = { this, c_data };
+    	StreamEvent se(sed);
+        FireWriteEvent(se);
+        
         return true;
     }
     else if (bytes_written == 0)
@@ -67,7 +75,11 @@ bool FileStream::Read(std::string& read_data)
     if (bytes_read != 0)
     {
         read_data.append(buffer);
-        FireReadEvent();
+        
+        StreamEventData sed = { this, read_data.c_str() };
+        StreamEvent se(sed);
+        FireReadEvent(se);
+        
         free(buffer);
         return true;
     }
@@ -79,10 +91,13 @@ bool FileStream::Read(std::string& read_data)
 bool FileStream::Close()
 {
     fclose(_fp);
-    FireCloseEvent();
+    
+    StreamEventData sed = { this, "" };
+    StreamEvent se(sed);
+    FireCloseEvent(se);
 }
 
-bool FileStream::SetFile(std::string file)
+bool FileStream::SetFile(std::string file, std::string mode)
 {
-    return OpenFile(file, "w+");
+    return OpenFile(file, mode);
 }

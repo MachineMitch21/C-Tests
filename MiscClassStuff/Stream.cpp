@@ -22,32 +22,32 @@ void Stream::RemoveListener(StreamListener* listener)
     _listeners.remove(listener);
 }
 
-void Stream::FireWriteEvent()
+void Stream::FireWriteEvent(StreamEvent& se)
 {
     LIST_SIZE_T size = _listeners.size();
 
     for (LIST_ITER it = _listeners.begin(); it != _listeners.end(); it++)
     {
-        (*it)->StreamWritten();
+        (*it)->StreamWritten(se);
     }
 }
 
-void Stream::FireReadEvent()
+void Stream::FireReadEvent(StreamEvent& se)
 {
     LIST_SIZE_T size = _listeners.size();
 
     for (LIST_ITER it = _listeners.begin(); it != _listeners.end(); it++)
     {
-        (*it)->StreamRead();
+        (*it)->StreamRead(se);
     }
 }
 
-void Stream::FireCloseEvent()
+void Stream::FireCloseEvent(StreamEvent& se)
 {
     LIST_SIZE_T size = _listeners.size();
 
     for (LIST_ITER it = _listeners.begin(); it != _listeners.end(); it++)
     {
-        (*it)->StreamClosed();
+        (*it)->StreamClosed(se);
     }
 }
