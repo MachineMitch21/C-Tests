@@ -2,34 +2,27 @@
 
 Entry Reason: ConsoleWrite
 
-
-
-Entry Time: Mon Apr  2 12:39:30 2018
-
-
-Entry Data: Test write
-
-
---------------------LOG DONE---------------------
-
---------------------LOG ENTRY--------------------
+Entry Time: [‘
+=F--------------------LOG ENTRY--------------------
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 12:42:34 2018
+Entry Time: k×=F--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleRead
 
 
-Entry Data: Test write
 
-
---------------------LOG DONE---------------------
-
---------------------LOG ENTRY--------------------
+Entry Time: \‘
+=F--------------------LOG ENTRY--------------------
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 12:45:09 2018
+Entry Time: k×=F--------------------LOG ENTRY--------------------
 
+Entry Reason: ConsoleWrite
+
+Entry Time: Date: 18-04-03  Time: 03:18PM
 
 Entry Data: Woo, more entries to the console
 
@@ -41,8 +34,7 @@ Entry Data: Woo, more entries to the console
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 12:45:09 2018
-
+Entry Time: Date: 18-04-03  Time: 03:18PM
 
 Entry Data: Enter some input: 
 
@@ -54,10 +46,9 @@ Entry Reason: ConsoleRead
 
 
 
-Entry Time: Mon Apr  2 12:45:18 2018
+Entry Time: Date: 18-04-03  Time: 03:18PM
 
-
-Entry Data: Some input for log testing
+Entry Data: stuff
 
 
 --------------------LOG DONE---------------------
@@ -66,8 +57,18 @@ Entry Data: Some input for log testing
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 14:07:14 2018
+Entry Time: Date: 18-04-03  Time: 03:18PM
 
+Entry Data: I am writing another thing to the console!
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: 18-04-03  03:19PM
 
 Entry Data: Woo, more entries to the console
 
@@ -79,8 +80,7 @@ Entry Data: Woo, more entries to the console
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 14:07:14 2018
-
+Entry Time: 18-04-03  03:19PM
 
 Entry Data: Enter some input: 
 
@@ -92,10 +92,9 @@ Entry Reason: ConsoleRead
 
 
 
-Entry Time: Mon Apr  2 14:07:16 2018
+Entry Time: 18-04-03  03:19PM
 
-
-Entry Data: woo
+Entry Data: stuff
 
 
 --------------------LOG DONE---------------------
@@ -104,8 +103,18 @@ Entry Data: woo
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 14:08:38 2018
+Entry Time: 18-04-03  03:19PM
 
+Entry Data: I am writing another thing to the console!
+
+
+--------------------LOG DONE---------------------
+
+--------------------LOG ENTRY--------------------
+
+Entry Reason: ConsoleWrite
+
+Entry Time: 04/03/2018  03:20PM
 
 Entry Data: Woo, more entries to the console
 
@@ -117,8 +126,7 @@ Entry Data: Woo, more entries to the console
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 14:08:38 2018
-
+Entry Time: 04/03/2018  03:20PM
 
 Entry Data: Enter some input: 
 
@@ -130,10 +138,9 @@ Entry Reason: ConsoleRead
 
 
 
-Entry Time: Mon Apr  2 14:08:47 2018
+Entry Time: 04/03/2018  03:20PM
 
-
-Entry Data: ADHD is false
+Entry Data: stuff
 
 
 --------------------LOG DONE---------------------
@@ -142,8 +149,7 @@ Entry Data: ADHD is false
 
 Entry Reason: ConsoleWrite
 
-Entry Time: Mon Apr  2 14:08:47 2018
-
+Entry Time: 04/03/2018  03:20PM
 
 Entry Data: I am writing another thing to the console!
 

@@ -49,7 +49,7 @@ bool FileStream::Write(std::string data)
     	StreamEventData sed = { this, c_data };
     	StreamEvent se(sed);
         FireWriteEvent(se);
-        
+
         return true;
     }
     else if (bytes_written == 0)
@@ -75,11 +75,11 @@ bool FileStream::Read(std::string& read_data)
     if (bytes_read != 0)
     {
         read_data.append(buffer);
-        
+
         StreamEventData sed = { this, read_data.c_str() };
         StreamEvent se(sed);
         FireReadEvent(se);
-        
+
         free(buffer);
         return true;
     }
@@ -91,10 +91,11 @@ bool FileStream::Read(std::string& read_data)
 bool FileStream::Close()
 {
     fclose(_fp);
-    
+
     StreamEventData sed = { this, "" };
     StreamEvent se(sed);
     FireCloseEvent(se);
+    return true;
 }
 
 bool FileStream::SetFile(std::string file, std::string mode)

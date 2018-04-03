@@ -18,10 +18,11 @@ ConsoleStream::~ConsoleStream()
 bool ConsoleStream::Write(std::string data)
 {
     printf("%s", data.c_str());
-    
+
     StreamEventData sed = { this, data.c_str() };
     StreamEvent se(sed);
     FireWriteEvent(se);
+    return true;
 }
 
 bool ConsoleStream::Read(std::string& read_data)
@@ -33,7 +34,7 @@ bool ConsoleStream::Read(std::string& read_data)
 	StreamEventData sed = { this, line };
 	StreamEvent se(sed);
     FireReadEvent(se);
-    
+
     free(line);
     return true;
 }
@@ -41,10 +42,11 @@ bool ConsoleStream::Read(std::string& read_data)
 bool ConsoleStream::Close()
 {
     printf("Attempting to close console stream does nothing!\n");
-    
+
     StreamEventData sed = { this, "" };
     StreamEvent se(sed);
     FireCloseEvent(se);
+    return true;
 }
 
 char* ConsoleStream::getline() {
